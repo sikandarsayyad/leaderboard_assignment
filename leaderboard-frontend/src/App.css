@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.claim {
+  background: #4caf50;
+  color: white;
+}
+
+.btn.claim:hover {
+  background: #45a049;
+}
+
+.btn.add {
+  background: #2196f3;
+  color: white;
+}
+
+.btn.add:hover {
+  background: #1976d2;
+}
+
+.message {
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leaderboard-table th {
+  background: #2196f3;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.leaderboard-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.leaderboard-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.leaderboard-table tr:hover {
+  background: #f1f1f1;
+}
